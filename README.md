@@ -17,11 +17,26 @@ Entrando un poco más en detalle de los elementos utilizados. Hay que decir en p
   * 0x04 _uplink_ petición reenvío ultimo mensaje.
 
 * Para la **estación terrestre**. Sin embargo, hay varias alternativas de placas a utilizar. Yo he optado por la TTGO LoRa32 V2 (433MHz SX1278) basada en ESP32 que conozco bien. El repositório de código está pensado para trabajar con Platformio sobre VSCode que se ocupa de todas las deplendencias de librerias que con el IDE de Arduino tendríamos que configurar a mano. gracias al magnifico software desarrollado por @G4lile0, la configuraciónd de la estación es una tarea sencilla a la vez que divertida ya que la propia placa presenta una aplicación web en la url 192.168.4.1/config.
+
 <img src="./images/FossaSat1_portable_GroundStation.png" width="250" align="right" />
 <img src="./images/config_wifimanager.jpg" width="250" align="left" />
 
 <br>
-<br>                                                                                                 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 ## _Demo time_
 <img src="./images/Budget-GroundStation-SatelliteSignalSimulator.gi"  align="center" />
 
