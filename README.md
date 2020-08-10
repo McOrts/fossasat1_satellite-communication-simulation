@@ -22,14 +22,14 @@ Entrando un poco más en detalle de los elementos utilizados. Hay que decir en p
 - Para la **estación terrestre**. Sin embargo, hay varias alternativas de placas a utilizar. Yo he optado por la TTGO LoRa32 V2 (433MHz SX1278) basada en ESP32 que conozco bien. El repositório de código está pensado para trabajar con Platformio sobre VSCode que se ocupa de todas las deplendencias de librerias que con el IDE de Arduino tendríamos que configurar a mano. gracias al magnifico software desarrollado por @G4lile0, la configuraciónd de la estación es una tarea sencilla a la vez que divertida ya que la propia placa presenta una aplicación web en la url 192.168.4.1/config.
 
 ## _Demo time_
-<img src="./images/Budget-GroundStation-SatelliteSignalSimulator.gif"  align="center" />
+<img src="./images/Budget-GroundStation-SatelliteSignalSimulator.gi"  align="center" />
 
 Una vez configurados y conectados todos los dispositivos y la wifi disponible para la estación terrestre. Solo tendremos que ver como se desarrolla la secuencia de comunicación:
 * El simulador de satélite empezará a emitir inmediatamente.
 * La estación presentará en su visor OLED los datos de señal y telemetría en pantallas sucesivas.
 <img src="./images/channel_telegram_fossasa-1_test.png" width="250" align="left" />
 <img src="./images/channel_telegram_fossasa-1_data.png" width="250" align="right" />
-
+x
 * Una vez completada la transmisión, el canal de [telegram de test](https://t.me/FOSSASAT_TEST) replicará los datos en un mensaje con la cabecera de nuestro identificador de estación receptora. A la vez, en el [canal general](https://t.me/FOSSASAT_DATA) se mostrará este identicador en la lista de estaciones.
 * Finalmente podremos consultar en la [página web del mapa global](https://fossa.apaluba.com/worldmap) tanto la posición estimada del satélite como la de nuestra estación terrestre.
 <img src="./images/Fossasat-1_GroundStationMap.png" align="center" />
