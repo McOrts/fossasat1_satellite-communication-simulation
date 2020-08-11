@@ -4,7 +4,7 @@ Basado en todo el trabajo que se ha hecho en torno al despliegue del satélite a
 ## _Budget link_ y arquitectura
 <img src="./images/BudgetLink-Architecture.png" align="center" />
 
-Resumiendo, este test consiste en la interacción entre un receptor real y un dispositivo que simula la comunicaciones en las dos direcciones: _uplink_ hacia el satélite y _downlink_ desde el satélite. Y se utiliza el mismo tipo de señal que el satélite real: la banda de 433Mhz con modulación LoRa. Parte del _payload_ del _downlink_ una vez decodificado por la estación terreste y a modo de _proxy_. Será reenviarado por Internet utilizando colas MQTT. Finalmente una aplicación _backend_ basada en Node-RED mostrará esta información, que básicamente es una telemetría simulada, en un canal de Telegram y situará la estación en un mapa geográfico.
+Resumiendo, este test consiste en la interacción entre un receptor real y un dispositivo que simula la comunicaciones en las dos direcciones: _uplink_ hacia el satélite y _downlink_ desde el satélite. Y se utiliza el mismo tipo de señal que el satélite real: la banda de 433Mhz con modulación LoRa. Parte del _payload_ del _downlink_ una vez decodificado por la estación terrestre y a modo de _proxy_. Será reenviado por Internet utilizando colas MQTT. Finalmente una aplicación _backend_ basada en Node-RED mostrará esta información, que básicamente es una telemetría simulada, en un canal de Telegram y situará la estación en un mapa geográfico.
 
 Entrando un poco más en detalle de los elementos utilizados. Hay que decir en primer lugar, que todo el software y hardware utilizado es abierto a excepción del chip modulador/demodulador LoRa con licencia de Semtech.
 
