@@ -16,7 +16,7 @@ Entrando un poco más en detalle de los elementos utilizados. Hay que decir en p
   * 0x03 _uplink_ de mensaje genérico
   * 0x04 _uplink_ petición reenvío ultimo mensaje.
 
-* Para la **estación terrestre**. Sin embargo, hay varias alternativas de placas a utilizar. Yo he optado por la TTGO LoRa32 V2 (433MHz SX1278) basada en ESP32 que conozco bien. El repositório de código está pensado para trabajar con Platformio sobre VSCode que se ocupa de todas las deplendencias de librerias que con el IDE de Arduino tendríamos que configurar a mano. gracias al magnifico software desarrollado por @G4lile0, la configuraciónd de la estación es una tarea sencilla a la vez que divertida ya que la propia placa presenta una aplicación web en la url 192.168.4.1/config.
+* Para la **estación terrestre**. Sin embargo, hay varias alternativas de placas a utilizar. Yo he optado por la TTGO LoRa32 V2 (433MHz SX1278) basada en ESP32 que conozco bien. El repositorio de código está pensado para trabajar con Platformio sobre VSCode que se ocupa de todas las deplendencias de librerias que con el IDE de Arduino tendríamos que configurar a mano. gracias al magnifico software desarrollado por @G4lile0, la configuración de la estación es una tarea sencilla a la vez que divertida ya que la propia placa presenta una aplicación web en la url 192.168.4.1/config.
 
 <img src="./images/FossaSat1_portable_GroundStation.png" width="250" align="right" />
 <img src="./images/config_wifimanager.jpg" width="250" align="left" />
@@ -50,7 +50,7 @@ Una vez configurados y conectados todos los dispositivos y la wifi disponible pa
 4. Finalmente podremos consultar en la [página web del mapa global](https://fossa.apaluba.com/worldmap) tanto la posición estimada del satélite como la de nuestra estación terrestre.
 <img src="./images/Fossasat-1_GroundStationMap.png" align="center" />
 
-[Pulsa aquí para ver un video de la secuencia completa](https://github.com/McOrts/fossasat1_satellite-communication-simulation/edit/master/images/Budget-GroundStation-SatelliteSignalSimulator.mov)
+[Pulsa aquí para ver un vídeo de la secuencia completa](https://github.com/McOrts/fossasat1_satellite-communication-simulation/edit/master/images/Budget-GroundStation-SatelliteSignalSimulator.mov)
 
 # Enlaces
 [Repositorio para la estación terrestre](https://github.com/G4lile0/ESP32-OLED-Fossa-GroundStation)
