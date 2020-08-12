@@ -1,5 +1,5 @@
 # Test de transmisión LoRa entre satélite y estación terrestre. Simulando comunicaciones de satélite encima de mi mesa.
-Basado en todo el trabajo que se ha hecho en torno al despliegue del satélite amater [Fossasat-1](https://fossa.systems/fossasat-1/). Esta es una recopilación y guia para realizar un test de comunicación de la telemetría usando modulación LoRa entre un satélite y el receptor terrestre.
+Basado en todo el trabajo que se ha hecho en torno al despliegue del satélite amater [Fossasat-1](https://fossa.systems/fossasat-1/). Esta es una recopilación y guía para realizar un test de comunicación de la telemetría usando modulación LoRa entre un satélite y el receptor terrestre.
 
 ## _Budget link_ y arquitectura
 <img src="./images/BudgetLink-Architecture.png" align="center" />
@@ -16,7 +16,7 @@ Entrando un poco más en detalle de los elementos utilizados. Hay que decir en p
   * 0x03 _uplink_ de mensaje genérico
   * 0x04 _uplink_ petición reenvío ultimo mensaje.
 
-* Para la **estación terrestre**. Sin embargo, hay varias alternativas de placas a utilizar. Yo he optado por la TTGO LoRa32 V2 (433MHz SX1278) basada en ESP32 que conozco bien. El repositorio de código está pensado para trabajar con Platformio sobre VSCode que se ocupa de todas las deplendencias de librerias que con el IDE de Arduino tendríamos que configurar a mano. gracias al magnifico software desarrollado por @G4lile0, la configuración de la estación es una tarea sencilla a la vez que divertida ya que la propia placa presenta una aplicación web en la url 192.168.4.1/config.
+* Para la **estación terrestre**. Sin embargo, hay varias alternativas de placas a utilizar. Yo he optado por la TTGO LoRa32 V2 (433MHz SX1278) basada en ESP32 que conozco bien. El repositorio de código está pensado para trabajar con Platformio sobre VSCode que se ocupa de todas las dependencias de librerías que con el IDE de Arduino tendríamos que configurar a mano. gracias al magnifico software desarrollado por @G4lile0, la configuración de la estación es una tarea sencilla a la vez que divertida ya que la propia placa presenta una aplicación web en la url 192.168.4.1/config.
 
 <img src="./images/FossaSat1_portable_GroundStation.png" width="250" align="right" />
 <img src="./images/config_wifimanager.jpg" width="250" align="left" />
