@@ -21,10 +21,10 @@ Entrando un poco más en detalle de los elementos utilizados. Hay que decir en p
 <img src="./images/FossaSat1_portable_GroundStation.png" width="250" align="right" />
 <img src="./images/config_wifimanager.jpg" width="250" align="left" />
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## _Demo time_
-<img src="./images/Budget-GroundStation-SatelliteSignalSimulator.gi"  align="center" />
+<img src="./images/Budget-GroundStation-SatelliteSignalSimulator.gif"  align="center" />
 
 Una vez configurados y conectados todos los dispositivos y la wifi disponible para la estación terrestre. Solo tendremos que ver como se desarrolla la secuencia de comunicación:
 1. El simulador de satélite empezará a emitir inmediatamente.
@@ -41,7 +41,7 @@ Una vez configurados y conectados todos los dispositivos y la wifi disponible pa
 # Enlaces
 * [Repositorio para la estación terrestre](https://github.com/G4lile0/ESP32-OLED-Fossa-GroundStation)
 * [Repositorio para el simulador de señal](https://github.com/lillefyr/Fossasat-1Simulator)
-* [Canal de telegram de la Comunidad FOSSA-SAT](ttps://t.me/joinchat/DmYSElZahiJGwHX6jCzB3Q)
+* [Canal de telegram de la Comunidad FOSSA-SAT](https://t.me/joinchat/DmYSElZahiJGwHX6jCzB3Q)
 
 # Agradecimientos
 - En primer lugar al artífice de casi todo esto, [G4lile0](https://github.com/G4lile0/) un profundo conocedor de la tecnología LoRa.
